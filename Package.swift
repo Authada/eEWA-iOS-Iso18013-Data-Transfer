@@ -13,8 +13,8 @@ let package = Package(
             targets: ["MdocDataTransfer18013"]),
     ],
     dependencies: [
-		.package(url: "https://github.com/Authada/eEWA-iOS-Iso18013-Data-Model.git", branch: "main"),
-		.package(url: "https://github.com/Authada/eEWA-iOS-Iso18013-Security.git", branch: "main"),
+		.package(url: "https://github.com/Authada/eEWA-iOS-Iso18013-Data-Model.git", exact: "0.2.0"),
+        .package(url: "https://github.com/Authada/eEWA-iOS-Iso18013-Security.git", exact: "0.2.0"),
 	],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
